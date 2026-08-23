@@ -1,0 +1,10 @@
+.next
+
+# Generated and managed by the Prismic CLI
+prismicio-types.d.ts
+customtypes
+src/slices/**/model.json
+src/slices/**/mocks.json
+
+# Sample content documents
+documents

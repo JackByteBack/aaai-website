@@ -1,0 +1,57 @@
+---
+interface Props {
+    current?: 'overview' | 'schedule' | 'guidelines' | 'about' | 'contact' | 'privacy' | 'terms';
+}
+const { current = 'overview' } = Astro.props;
+
+const items = [
+    { id: 'overview', label: 'Overview', href: '/' },
+    { id: 'schedule', label: 'Schedule', href: '/schedule/' },
+    { id: 'guidelines', label: 'Guidelines', href: '/guidelines/' },
+];
+---
+
+<input type="checkbox" id="ac-ln-menustate" class="ac-ln-menustate" />
+<nav id="ac-localnav" class="no-js" lang="en-IN" dir="ltr" data-sticky role="navigation" aria-label="Local">
+    <div class="ac-ln-wrapper">
+        <div class="ac-ln-background"></div>
+        <div class="ac-ln-content">
+            <div class="ac-ln-title">
+                <a href="/">AAAI Event Hub</a>
+            </div>
+            <div class="ac-ln-menu">
+                <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open" role="button">
+                    <span class="ac-ln-menucta-anchor-label">Local Nav Menu</span>
+                </a>
+                <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close" role="button">
+                    <span class="ac-ln-menucta-anchor-label">Local Nav Menu</span>
+                </a>
+                <div class="ac-ln-menu-tray">
+                    <ul class="ac-ln-menu-items">
+                        {items.map((item) => (
+                            <li class="ac-ln-menu-item">
+                                {current === item.id ? (
+                                    <span class="ac-ln-menu-link current" role="link" aria-disabled="true" aria-current="page">{item.label}</span>
+                                ) : (
+                                    <a href={item.href} class="ac-ln-menu-link">{item.label}</a>
+                                )}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div class="ac-ln-actions">
+                    <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                        <label for="ac-ln-menustate" class="ac-ln-menucta">
+                            <span class="ac-ln-menucta-chevron"></span>
+                        </label>
+                    </div>
+                    <div class="ac-ln-action ac-ln-action-button">
+                        <a class="ac-ln-button" href="/schedule/#get-passes">Get Passes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<label id="ac-ln-curtain" for="ac-ln-menustate"></label>
+<script is:inline type="text/javascript" src="/js/ac-localnav.built.js"></script>

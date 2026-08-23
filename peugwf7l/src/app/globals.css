@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme inline {
+	--font-sans:
+		"PP Neue Montreal", "Helvetica Neue", Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-inter: var(--font-inter-family);
+}

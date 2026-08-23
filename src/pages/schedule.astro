@@ -1,0 +1,151 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Schedule - AAAI Event Hub</title>
+        <meta name="Description" content="Schedule and passes for the AAAI Event Hub — three days of keynotes, workshops, awards and celebrations." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="schedule" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Three days. One schedule. Everything extraordinary.</h1>
+                <p class="subhead">Plan your event experience day by day — then grab the pass that fits how you want to attend.</p>
+            </header>
+
+            <section class="event-section" aria-label="Day by day schedule">
+                <div class="event-container">
+                    <h2>The schedule.</h2>
+
+                    <article class="day-block">
+                        <p class="day-label">Day 1</p>
+                        <h3>Opening Day &amp; Keynotes</h3>
+                        <ul class="session-list">
+                            <li>
+                                <span class="session-time">9:00 AM</span>
+                                <span class="session-title"><strong>Registration &amp; Welcome Breakfast</strong><span>Main Lobby</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">10:30 AM</span>
+                                <span class="session-title"><strong>Opening Keynote</strong><span>Main Stage</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">1:00 PM</span>
+                                <span class="session-title"><strong>Lunch &amp; Community Meetups</strong><span>Expo Hall</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">3:00 PM</span>
+                                <span class="session-title"><strong>Spotlight Sessions</strong><span>Halls A &amp; B</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">6:30 PM</span>
+                                <span class="session-title"><strong>Welcome Reception</strong><span>Rooftop Terrace</span></span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="day-block">
+                        <p class="day-label">Day 2</p>
+                        <h3>Workshops &amp; Deep Dives</h3>
+                        <ul class="session-list">
+                            <li>
+                                <span class="session-time">9:30 AM</span>
+                                <span class="session-title"><strong>Hands-on Workshops, Block 1</strong><span>Studio 1–4</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">12:30 PM</span>
+                                <span class="session-title"><strong>Lunch Break</strong><span>Expo Hall</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">2:00 PM</span>
+                                <span class="session-title"><strong>Hands-on Workshops, Block 2</strong><span>Studio 1–4</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">5:00 PM</span>
+                                <span class="session-title"><strong>Panel: The Road Ahead</strong><span>Main Stage</span></span>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="day-block">
+                        <p class="day-label">Day 3</p>
+                        <h3>Awards &amp; Closing Celebrations</h3>
+                        <ul class="session-list">
+                            <li>
+                                <span class="session-time">10:00 AM</span>
+                                <span class="session-title"><strong>Lightning Talks</strong><span>Hall B</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">1:00 PM</span>
+                                <span class="session-title"><strong>Lunch &amp; Expo Farewell</strong><span>Expo Hall</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">3:00 PM</span>
+                                <span class="session-title"><strong>Awards Ceremony</strong><span>Main Stage</span></span>
+                            </li>
+                            <li>
+                                <span class="session-time">7:00 PM</span>
+                                <span class="session-title"><strong>Closing Celebration</strong><span>Grand Ballroom</span></span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section id="get-passes" class="event-section on-white event-passes" aria-label="Get passes">
+                <div class="event-container">
+                    <h2>Get Passes.</h2>
+                    <div class="pass-grid">
+                        <article class="pass-card">
+                            <p class="pass-tier">Student</p>
+                            <h3 class="pass-name">Student Pass</h3>
+                            <p class="pass-price">₹2,999 <small>/ person</small></p>
+                            <ul class="pass-features">
+                                <li>All three days of sessions</li>
+                                <li>Keynote access</li>
+                                <li>Welcome reception entry</li>
+                                <li>Valid student ID required</li>
+                            </ul>
+                            <a class="button-pill" href="mailto:passes@aaaihub.org?subject=Student%20Pass">Get Passes</a>
+                        </article>
+                        <article class="pass-card featured">
+                            <p class="pass-tier">Most popular</p>
+                            <h3 class="pass-name">Standard Pass</h3>
+                            <p class="pass-price">₹5,999 <small>/ person</small></p>
+                            <ul class="pass-features">
+                                <li>All three days of sessions</li>
+                                <li>Keynotes, panels &amp; workshops</li>
+                                <li>Reception &amp; closing celebration</li>
+                                <li>Event swag kit</li>
+                            </ul>
+                            <a class="button-pill" href="mailto:passes@aaaihub.org?subject=Standard%20Pass">Get Passes</a>
+                        </article>
+                        <article class="pass-card">
+                            <p class="pass-tier">VIP</p>
+                            <h3 class="pass-name">All-Access Pass</h3>
+                            <p class="pass-price">₹9,999 <small>/ person</small></p>
+                            <ul class="pass-features">
+                                <li>Everything in Standard</li>
+                                <li>Front-row keynote seating</li>
+                                <li>Speaker dinner invitation</li>
+                                <li>Lounge &amp; priority support</li>
+                            </ul>
+                            <a class="button-pill" href="mailto:passes@aaaihub.org?subject=All-Access%20Pass">Get Passes</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

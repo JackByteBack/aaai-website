@@ -1,0 +1,60 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Guidelines - AAAI Event Hub</title>
+        <meta name="Description" content="Event guidelines for the AAAI Event Hub — entry, code of conduct, health and safety, photography and more." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="guidelines" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Event guidelines.</h1>
+                <p class="subhead">Everything you need to know before you arrive — so the only surprise is how good the event is.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Guidelines">
+                <div class="event-container">
+                    <h2>Know before you go.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Entry &amp; Badges</h3>
+                            <p>Bring a government-issued photo ID along with your pass confirmation. Collect your badge at registration from 9:00 AM on Day 1. Badges must be worn visibly at all times and are non-transferable.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Code of Conduct</h3>
+                            <p>Be kind, be inclusive, be professional. Harassment or disruptive behaviour of any kind leads to removal without refund. If you see something, reach out to any staff member or the help desk.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Health &amp; Safety</h3>
+                            <p>First-aid stations are located in the Main Lobby and Expo Hall. In an emergency, follow staff instructions and marked exits. Please stay home if you're feeling unwell — passes can be transferred instead.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Photography &amp; Media</h3>
+                            <p>Personal photos are welcome. Professional recording of sessions is reserved for authorised media partners. Always ask before photographing other attendees, and respect "no photography" signage.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Refunds &amp; Transfers</h3>
+                            <p>Full refunds are available up to 14 days before the event. Within 14 days, you may transfer your pass to another person free of charge by emailing the attendee's details to the passes desk.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Accessibility</h3>
+                            <p>All venues are wheelchair accessible with reserved seating available at every session. Live captioning is provided on the Main Stage. Contact the help desk for any additional assistance.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

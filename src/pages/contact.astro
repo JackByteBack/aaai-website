@@ -1,0 +1,78 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Contact Us - AAAI Event Hub</title>
+        <meta name="Description" content="Get in touch with the AAAI Event Hub team — passes, speaking, sponsorship, accessibility and press enquiries." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="contact" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>We're here to help.</h1>
+                <p class="subhead">Pick the topic that fits and write to us — we aim to reply within one working day.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Contact options">
+                <div class="event-container">
+                    <h2>Reach the right team.</h2>
+                    <div class="contact-grid">
+                        <article class="guideline-card">
+                            <h3>Passes &amp; Registration</h3>
+                            <p>Questions about buying, transferring or refunding a pass.</p>
+                            <a href="mailto:passes@aaaihub.org">passes@aaaihub.org</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Speaking &amp; Programme</h3>
+                            <p>Proposals for talks, panels and workshops.</p>
+                            <a href="mailto:programme@aaaihub.org">programme@aaaihub.org</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Sponsorship &amp; Partnerships</h3>
+                            <p>Expo booths, community partnerships and sponsorships.</p>
+                            <a href="mailto:partners@aaaihub.org">partners@aaaihub.org</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Accessibility</h3>
+                            <p>Seating, captioning, dietary or any other access needs.</p>
+                            <a href="mailto:access@aaaihub.org">access@aaaihub.org</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Press &amp; Media</h3>
+                            <p>Media passes, interviews and press kits.</p>
+                            <a href="mailto:press@aaaihub.org">press@aaaihub.org</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Anything Else</h3>
+                            <p>General questions, feedback and lost &amp; found.</p>
+                            <a href="mailto:hello@aaaihub.org">hello@aaaihub.org</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="Venue address">
+                <div class="event-container">
+                    <h2>Find us.</h2>
+                    <div class="prose">
+                        <p><strong>AAAI Event Hub</strong><br />
+                        Convention Centre, Hall A–D<br />
+                        Business District, Mumbai 400001, India</p>
+                        <p>Registration opens at 9:00 AM on Day 1. The help desk in the Main Lobby is staffed throughout the event for anything you need in person.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

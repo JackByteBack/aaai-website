@@ -1,0 +1,60 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Page Not Found - AAAI Event Hub</title>
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="overview" />
+        <main class="event-main">
+            <header class="event-hero error-hero">
+                <p class="error-code">404</p>
+                <h1>This page took the wrong turn.</h1>
+                <p class="subhead">The page you're looking for doesn't exist or may have moved. Let's get you back on track.</p>
+                <div class="error-actions">
+                    <a class="button-pill" href="/">Back to Overview</a>
+                    <a class="link-plain" href="/schedule/">View Schedule</a>
+                </div>
+            </header>
+
+            <section class="event-section on-white" aria-label="Helpful links">
+                <div class="event-container">
+                    <h2>Looking for one of these?</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Schedule</h3>
+                            <p>Three days of keynotes, workshops and celebrations — plan your experience day by day.</p>
+                            <a href="/schedule/">Go to Schedule</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Guidelines</h3>
+                            <p>Everything you need to know before you arrive at the event.</p>
+                            <a href="/guidelines/">Read Guidelines</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>About Us</h3>
+                            <p>Who we are and what we stand for.</p>
+                            <a href="/about/">Meet the team</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Contact Us</h3>
+                            <p>Can't find what you need? We'll help you out.</p>
+                            <a href="/contact/">Get in touch</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

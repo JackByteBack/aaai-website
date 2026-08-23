@@ -1,0 +1,80 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>About Us - AAAI Event Hub</title>
+        <meta name="Description" content="Learn about the AAAI Event Hub — who we are, what we stand for and the team behind three days of keynotes, workshops and celebrations." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="about" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Great ideas deserve a great room.</h1>
+                <p class="subhead">The AAAI Event Hub brings people together to share what's next — three days of keynotes, hands-on workshops and conversations that continue long after the closing celebration.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Our story">
+                <div class="event-container prose">
+                    <h2>Who we are.</h2>
+                    <p>The AAAI Event Hub is an independent, community-driven event organised by a small team of technologists, designers and educators. What started as a one-day meetup has grown into a three-day gathering that welcomes students, professionals and curious minds from across the country.</p>
+                    <p>We keep the event intentionally intimate: every session is chosen to be useful, every speaker is approachable, and every attendee has a seat at the table.</p>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="What we value">
+                <div class="event-container">
+                    <h2>What we value.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Community first</h3>
+                            <p>The best moments happen in the hallways. We design plenty of space and time for you to meet the people sitting next to you.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Learning by doing</h3>
+                            <p>Talks inspire, but workshops stick. Half of our programme is hands-on, so you leave with skills — not just notes.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Everyone belongs</h3>
+                            <p>Accessible venues, live captioning, a clear code of conduct and a help desk that actually helps. All attendees are welcome.</p>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Independence</h3>
+                            <p>We're funded by passes and community sponsors — not agendas. Sessions are selected on merit, period.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section on-white" aria-label="By the numbers">
+                <div class="event-container">
+                    <h2>The event, by the numbers.</h2>
+                    <div class="stat-grid">
+                        <div class="stat-card"><span class="stat-value">3</span><span class="stat-label">Days of sessions</span></div>
+                        <div class="stat-card"><span class="stat-value">40+</span><span class="stat-label">Speakers &amp; mentors</span></div>
+                        <div class="stat-card"><span class="stat-value">1,200</span><span class="stat-label">Attendees</span></div>
+                        <div class="stat-card"><span class="stat-value">12</span><span class="stat-label">Hands-on workshops</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="Get in touch">
+                <div class="event-container contact-callout">
+                    <h2>Say hello.</h2>
+                    <p>Questions, ideas or partnership proposals — we read everything.</p>
+                    <a class="button-pill" href="/contact/">Contact us</a>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

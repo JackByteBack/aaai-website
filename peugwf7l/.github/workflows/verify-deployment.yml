@@ -1,0 +1,39 @@
+name: Verify deployment
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Verify clean starter
+        run: bash ./.deployment/instant-preview/patch-verify.sh
+
+      - name: Install starter dependencies
+        run: npm ci
+
+      - name: Apply instant preview patch
+        run: bash ./.deployment/instant-preview/patch-apply.sh .
+
+      - name: Lint patched starter
+        run: npm run lint
+
+      - name: Build patched starter
+        run: npm run build
+
+      - name: Reset starter source tree
+        if: always()
+        run: git checkout HEAD -- src/ && git clean -fd src/

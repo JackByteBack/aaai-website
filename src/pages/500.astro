@@ -1,0 +1,32 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Something Went Wrong - AAAI Event Hub</title>
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="overview" />
+        <main class="event-main">
+            <header class="event-hero error-hero">
+                <p class="error-code">500</p>
+                <h1>Something went wrong on our end.</h1>
+                <p class="subhead">An unexpected server error occurred. It's us, not you — try again in a moment.</p>
+                <div class="error-actions">
+                    <a class="button-pill" href="/">Back to Overview</a>
+                    <a class="link-plain" href="/contact/">Contact Support</a>
+                </div>
+            </header>
+        </main>
+        <EventFooter />
+    </body>
+</html>

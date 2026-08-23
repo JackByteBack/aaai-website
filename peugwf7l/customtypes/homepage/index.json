@@ -1,0 +1,76 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "resource_links": {
+              "type": "SharedSlice"
+            },
+            "card_grid": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        }
+      }
+    },
+    "Footer": {
+      "footer_copyright_text": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright Text"
+        }
+      },
+      "footer_cookies_link": {
+        "type": "Link",
+        "config": {
+          "label": "Cookies Link",
+          "select": "web",
+          "allowTargetBlank": true,
+          "allowText": true
+        }
+      },
+      "footer_social_links": {
+        "type": "Link",
+        "config": {
+          "label": "Social Links",
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": true,
+          "variants": [
+            "X",
+            "YouTube",
+            "GitHub",
+            "LinkedIn"
+          ]
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "page"
+}

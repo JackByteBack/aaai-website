@@ -1,0 +1,12 @@
+{
+  "repositoryName": "peugwf7l",
+  "libraries": [
+    "./src/slices"
+  ],
+  "routes": [
+    {
+      "type": "homepage",
+      "path": "/"
+    }
+  ]
+}

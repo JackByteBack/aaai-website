@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "This is a real page. Edit it, publish it, and use it to familiarize yourself with the page builder, slice, and previews."
+						}
+					}
+				]
+			},
+			"headline": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Welcome to your New Repository"
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
