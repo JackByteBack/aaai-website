@@ -692,3 +692,46 @@ html {
 	object-fit: cover !important;
 	object-position: center 40% !important;
 }
+
+/* Hearing Health section - mobile fixes */
+@media only screen and (max-width: 734px) {
+	.section-hearing-health .image-container,
+	.section-hearing-health .image-enhanced,
+	.section-hearing-health .image-static {
+		--p-width: 340px;
+		--p-height: 328px;
+	}
+
+	.section-hearing-health .inline-media-component-container {
+		--media-width: 162px;
+		--media-height: 162px;
+		top: 50%;
+		right: 50%;
+		transform: translate(50%, -50%);
+	}
+
+	.section-hearing-health .inline-media-component-container .video-wrapper {
+		width: var(--media-width);
+		height: var(--media-height);
+	}
+
+	.section-hearing-health .inline-media-component-container .end-frame,
+	.section-hearing-health .inline-media-component-container .fallback-frame,
+	.section-hearing-health .inline-media-component-container .start-frame {
+		--p-width: 162px;
+		--p-height: 162px;
+	}
+}
+
+/* Fix loading spinner stuck state on mobile */
+@media only screen and (max-width: 734px) {
+	.section-hearing-health .inline-media-component-container.fallback .inline-media-ui,
+	.section-hearing-health .inline-media-component-container.hide-ui .inline-media-ui,
+	.section-hearing-health .inline-media-component-container.media-unloaded .inline-media-ui {
+		display: none;
+	}
+
+	.section-hearing-health .inline-media-component-container:not(.fallback, .media-unloaded) .inline-media-ui-button.loading .play-pause-button::after {
+		animation-duration: 0.85s;
+	}
+}
