@@ -1,0 +1,13 @@
+VIDEO — anim/design (5s turntable) | Firefly: Generate Video | 16:9
+
+[SHOT] Product turntable: camera orbits the kiosk a full 360 degrees at hip height, subject perfectly centred throughout.
+[LENS] 50mm, T4, ARRI Alexa 65, 24fps, focus locked on kiosk edge.
+[SUBJECT] A futuristic self-service event kiosk: tall brushed-aluminium monolith, chamfered edges, thin edge-lit glass screen glowing softly along its front face, subtle AAAI-blue status dot pulsing near its base.
+[ACTION] Camera completes exactly one full orbit in 5 seconds; a narrow beam of light sweeps vertically up the metal face once per revolution; status dot breathes every 2 seconds.
+[ENVIRONMENT] TCET lobby at night: polished dark granite floor with crisp mirror reflection, campus architecture dissolved into deep shadow bokeh behind.
+[LIGHTING] Studio-style: electric blue #2E6FF2 gradient wash from left, violet #7B5CFA from right, single warm practical ceiling spot far above creating a soft top sheen on the aluminium.
+[MOTION] Constant orbital speed, zero shake; reflection rotates in perfect sync below; end frame matches start for seamless loop.
+[ATMOSPHERE] Clean air with a whisper of haze so the vertical light sweep reads as volume; dust-free premium look.
+[GRADE] Charcoal-to-black backdrop (#000-#1d1d1f), metal rendered with true anisotropic streaking, subtle grain, photorealistic product cinematography, no readable text on screen, no watermark.
+
+NEGATIVE: gibberish text, warped geometry, flicker, cartoon, plastic look, oversaturated, low resolution, jump cut

@@ -1,0 +1,4 @@
+IMAGE — og-meta social share banner (export EXACTLY 1200x630)
+Paste at: gemini.google.com | Ask for 16:9 widescreen, then crop to 1200x630
+
+A photorealistic 8K panoramic banner photograph of a college auditorium main stage fully set for an AI conference: wide dark hall with rows of empty seats leading to an illuminated stage, sweeping beams of electric blue and violet gradient light crossing above it, a large LED wall glowing with soft abstract neural-network patterns kept deliberately out of focus, clean empty dark copy space across the exact center of the frame for overlaying a title later, gentle reflections of stage lights on the polished floor, thin haze making every beam volumetric. Shot on a full-frame cinema camera with a 24mm lens at f/4, cinematic low-key grade with crushed blacks (#000 to #1d1d1f), halation around light sources, subtle film grain, Mumbai campus tech-fest atmosphere, absolutely no text or letters anywhere in the image, no watermark.

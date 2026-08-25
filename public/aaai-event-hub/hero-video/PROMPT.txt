@@ -1,0 +1,14 @@
+VIDEO — hero background loop (8s, seamless)
+Replaces: /public/videos/aaai-hero* | Firefly: Video > Generate Video | 16:9 | 8s
+
+[SHOT] Ultra-slow cinematic dolly-in at walking pace, camera at seated eye-level gliding down the centre aisle of a packed college auditorium, ending framed on the glowing stage.
+[LENS] Shot on ARRI Alexa 65 with Panavision Sphero 65 lenses, T2.0, 24fps natural motion blur, anamorphic character, 8K downsampled to 4K.
+[SUBJECT] On stage: a single speaker in silhouette behind a slim clear lectern, rimmed by two vertical light bars; below, rows of Indian college students in casual-smart attire with lanyards, applauding gently, faces turned to the stage.
+[ACTION] The speaker gestures once, slowly; audience applause ripples through the crowd; a slow beam of light sweeps from left to right across the seating.
+[ENVIRONMENT] TCET college main auditorium in Mumbai: deep red-brown seats fading into darkness, dark acoustic wall panels, polished stage floor reflecting the LED wall.
+[LIGHTING] Massive curved LED wall projecting abstract neural-network data streams in electric blue #2E6FF2 and violet #7B5CFA; warm tungsten follow-spot on the speaker; cool spill light washing the crowd; thin haze catching every beam.
+[MOTION] Camera moves the entire clip at constant slow speed; dust drifts upward through beams; applause is small hand motion only; first and final frames identical for a seamless loop.
+[ATMOSPHERE] Light theatrical haze, soft bokeh on distant seats, gentle halation around the LED wall edges.
+[GRADE] Crushed inky blacks (#000-#1d1d1f), warm highlights against cool accents, subtle sensor grain, HDR depth, physically accurate light falloff.
+
+NEGATIVE: gibberish text, warped faces, morphing hands, extra fingers, flicker, jitter, cartoon, CGI plastic look, oversaturated, low resolution, watermark, logo, jump cut, empty venue

@@ -1,0 +1,13 @@
+VIDEO — anim/hero (5s loop) | Firefly: Generate Video | 16:9
+
+[SHOT] Static macro shot, slight handheld float; subject centred, expo hall bokeh background.
+[LENS] 100mm macro lens, f/2.8, 120fps slow motion conformed to 24fps, ARRI Alexa 65.
+[SUBJECT] A futuristic transparent acrylic AAAI attendee badge hanging from a woven navy lanyard, glowing circuit-core etched inside the acrylic, tiny holographic schedule shimmering beneath its surface.
+[ACTION] Badge rotates slowly on its own axis, swaying gently as if on its lanyard, light trails wrapping around it; nothing else moves fast.
+[ENVIRONMENT] Blurred college expo floor at night: stall lights, wandering students as soft bokeh orbs, dark ceiling truss above.
+[LIGHTING] Key: electric blue #2E6FF2 edge-light from left; violet #7B5CFA kicker from right; faint warm tungsten fill from background stalls; hologram glow illuminating the badge interior.
+[MOTION] Rotation takes the full 5 seconds and ends where it began for a perfect loop; lanyard sways with visible weight; bokeh lights twinkle slowly.
+[ATMOSPHERE] Airborne dust motes crossing the macro plane, shallow plane of focus breathing slightly.
+[GRADE] Inky blacks (#000-#1d1d1f), halation around badge glow, subtle grain, photorealistic, no text, no watermark.
+
+NEGATIVE: gibberish text, warped hands, flicker, cartoon, plastic CGI look, oversaturated, watermark, jump cut

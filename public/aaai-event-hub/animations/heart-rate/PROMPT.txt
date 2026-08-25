@@ -1,0 +1,13 @@
+VIDEO — anim/heart-rate (4s loop) | Firefly: Generate Video | 16:9
+
+[SHOT] Locked-off wide shot: glowing waveform floats mid-frame over a blurred audience below, slight parallax drift left-to-right.
+[LENS] 50mm, f/1.8 wide open, ARRI Alexa 65, 24fps.
+[SUBJECT] A luminous neon-blue ECG pulse waveform — clean medical-grade line with violet #7B5CFA halo — hovering like a hologram above rows of cheering students.
+[ACTION] Waveform spikes and settles in a calm heartbeat rhythm (~60bpm); each spike casts a pulse of light onto upturned faces below; crowd applause is gentle continuous motion.
+[ENVIRONMENT] TCET auditorium at night: sea of heads and raised phone lights as warm bokeh, dark ceiling truss lost to shadow.
+[LIGHTING] The waveform itself is the hero source, flickering the scene subtly with each beat; cool blue wash on the crowd; faint warm tungsten footlights along the stage edge far background.
+[MOTION] Waveform loops perfectly every 2 seconds (two cycles per clip); bokeh twinkles softly; first and last frames identical for seamless loop.
+[ATMOSPHERE] Haze so the beam reads volumetrically, halation blooming off each heartbeat spike.
+[GRADE] Crushed blacks, HDR neon rolloff, subtle grain, photorealistic, no readable text, no watermark.
+
+NEGATIVE: gibberish text, distorted faces, flicker, cartoon, oversaturated, low resolution, watermark, jump cut

@@ -1,0 +1,13 @@
+VIDEO — anim/touch-controls (4s) | Firefly: Generate Video | 16:9
+
+[SHOT] Close-up over-shoulder angle behind the hand, holographic panel centre-right of frame, corridor bokeh filling background left.
+[LENS] 85mm, f/1.8, ARRI Alexa Mini LF, 24fps; focus on fingertip and panel, everything else melted.
+[SUBJECT] An Indian college student's hand (lanyard visible at wrist edge) tapping a floating translucent holographic event-schedule panel projected in mid-air.
+[ACTION] Fingertip touches one card — the panel ripples outward from contact point like disturbed water — cards shuffle and glide into a new arrangement with soft physics; hand withdraws slowly out of focus.
+[ENVIRONMENT] Dim TCET corridor at night: warm wall sconces far behind as amber bokeh, polished floor reflecting faint blue glow upward.
+[LIGHTING] Hologram is hero light: electric blue #2E6FF2 cards with violet #7B5CFA accents cast moving light onto the skin of the hand and knuckles; ambient is near-black.
+[MOTION] Ripple propagates at natural water-speed; card glides ease-out like quality UI motion; total gesture completes inside 4s; end frame calm and stable.
+[ATMOSPHERE] Dust motes drifting through hologram glow, gentle halation on card edges, shallow focus breathing.
+[GRADE] Near-black shadows (#000), neon kept filmic, subtle grain, photorealistic skin texture, no readable text on cards, no watermark.
+
+NEGATIVE: gibberish text, warped fingers, extra fingers, morphing hand, flicker, cartoon, plastic CGI look, oversaturated, jump cut

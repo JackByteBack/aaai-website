@@ -1,0 +1,6 @@
+IMAGE — noise-control (startframe + lifestyle + endframe)
+Paste at: gemini.google.com | 16:9 widescreen
+
+A photorealistic 8K minimalist cinematic photograph inside a dark exhibition hall at night: a single luminous white-cyan orb hovering motionless one meter above a still pool of black water set into the polished dark floor, perfect concentric ripples of soft blue light radiating outward from where its glow touches the water, thin atmospheric haze catching the light in visible beams, distant expo stalls reduced to deep out-of-focus bokeh dots in violet and blue, everything mirrored in the still surface below. Shot on a full-frame camera with an 85mm lens at f/1.8, shallow cinematic depth of field, crushed inky blacks, physically accurate light falloff, subtle film grain, no text anywhere, no watermark, no people close to camera.
+LIFESTYLE VARIANT: add "the blurred silhouette of one student standing at the edge of the pool watching it, seen from behind."
+ENDFRAME VARIANT: ripples faded almost flat, orb dimmed to half brightness, calm returning.

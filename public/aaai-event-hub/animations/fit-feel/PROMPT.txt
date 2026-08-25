@@ -1,0 +1,13 @@
+VIDEO — anim/fit-feel (4s orbit) | Firefly: Generate Video | 16:9
+
+[SHOT] Slow 90-degree orbital camera move around a wrist resting on black glass, subject always centre frame.
+[LENS] 100mm macro, f/2.5, 120fps slow motion, ARRI Alexa 65, focus locked on the wristband display.
+[SUBJECT] A premium matte-titanium smart event wristband on an Indian college student's wrist, curved edge-lit display pulsing a soft holographic entry-pass pattern, fine brushed-metal texture catching light.
+[ACTION] Wristband's hologram pulses once per second; a faint scan-line travels around its band; camera completes its slow orbit; skin micro-details (fine hair, pores) read as real.
+[ENVIRONMENT] Black polished glass counter in a dim tech-fest stall; blurred string lights and stall banners far behind.
+[LIGHTING] Electric blue #2E6FF2 edge-light tracing the metal rim from frame-left; violet #7B5CFA kicker from frame-right; soft top-down practical glow from the hologram itself lighting the surrounding skin.
+[MOTION] Orbit spans exactly 90 degrees across 4 seconds at constant speed; hologram pulse drives all other rhythm; end pose matches start for loop.
+[ATMOSPHERE] Micro dust drifting above the glass, crisp reflection of the wristband mirrored below.
+[GRADE] Inky blacks (#000-#1d1d1f), halation on hologram edges, subtle sensor grain, photorealistic macro detail, no readable text, no watermark.
+
+NEGATIVE: warped hands, extra fingers, gibberish text, flicker, cartoon, plastic CGI look, oversaturated, jump cut

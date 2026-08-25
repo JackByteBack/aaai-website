@@ -1,0 +1,6 @@
+IMAGE — welcome / welcome-variant / variant (startframe + lifestyle + endframe)
+Paste at: gemini.google.com | Ask for 16:9 widescreen
+For ENDFRAME version use the alternate last sentence (below).
+
+A photorealistic 8K cinematic wide establishing photograph of the main entrance courtyard of an engineering college campus in Mumbai at dusk during an AI technology festival: a grand illuminated welcome archway built from curved LED ribbons glowing electric blue and violet stretched between palm trees and modern college buildings, Indian college students with backpacks and event lanyards walking in as soft silhouettes, warm golden interior light spilling from the gates contrasting the cool blue dusk sky, wet pavement with rain reflections doubling every light source, distant city haze in the background. Shot on a full-frame cinema camera with a 24mm lens at f/2.8, deep cinematic depth, volumetric evening light, natural skin tones on nearby students turned away from camera, faces not clearly visible, no readable text on any banner or screen, no watermark.
+ENDFRAME ALTERNATIVE: same scene but now "the courtyard fully filled with a glowing crowd, archway at peak brightness, energy of a festival at full swing."

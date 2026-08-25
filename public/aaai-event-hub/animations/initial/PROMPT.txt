@@ -1,0 +1,13 @@
+VIDEO — anim/initial (4s loop) | Firefly: Generate Video | 16:9
+
+[SHOT] Locked-off symmetrical wide shot of a dark stage, dead-centre composition.
+[LENS] 32mm spherical lens, T2.8, ARRI Alexa 65, 24fps, 8K master.
+[SUBJECT] Thousands of fine particles of light — electric blue #2E6FF2 and violet #7B5CFA — drifting inward like iron filings to a magnet over a black reflective stage floor.
+[ACTION] Particles converge and weave themselves into a slowly rotating stylized AI brain made of thin light filaments; it holds one breath, then releases outward into darkness; cycle repeats seamlessly.
+[ENVIRONMENT] Empty TCET auditorium stage swallowed by darkness; only a faint mirror reflection of the forming brain on the polished floor.
+[LIGHTING] Self-illuminated particles are the only source; each filament casts faint volumetric haze glow; no other lights exist.
+[MOTION] Convergence eases in, release eases out (smooth sine-wave pacing); first frame equals final frame for a flawless loop.
+[ATMOSPHERE] Thin theatrical haze so every filament reads as a beam; gentle bloom where particle density peaks.
+[GRADE] Pure crushed blacks, HDR neon accents kept inside filmic rolloff, subtle grain, octane-grade render realism, no text, no watermark.
+
+NEGATIVE: text, logo, flicker, banding, cartoon, oversaturated, low resolution, jump cut

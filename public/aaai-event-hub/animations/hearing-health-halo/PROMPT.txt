@@ -1,0 +1,13 @@
+VIDEO — anim/hearing-health-halo (4s loop) | Firefly: Generate Video | 16:9
+
+[SHOT] Perfectly symmetrical locked-off shot down the centre line of a dark college stage, halo dead-centre.
+[LENS] 40mm spherical, T4, ARRI Alexa 65, 24fps, tripod-still with zero shake.
+[SUBJECT] A thin luminous ring of white-cyan light expanding outward like a sound wave made visible; inside it, finer particles of light ripple outward in concentric circles.
+[ACTION] Ring breathes: expands slowly to fill two-thirds of frame, dims, contracts back to birth point; particles ride the wavefront outward and fade.
+[ENVIRONMENT] Empty TCET stage swallowed by darkness; faint silhouette of a grand curtain edge and reflective stage floor doubling the halo below.
+[LIGHTING] Halo is sole illuminator; its expansion pushes soft volumetric light through thin haze, gently revealing then hiding the floor texture.
+[MOTION] One full expand-contract cycle per 4-second clip, eased sine pacing, zero jitter; end frame equals start frame for seamless loop.
+[ATMOSPHERE] Theatrical haze at low density, bloom where ring brightness peaks, mirror reflection on floor.
+[GRADE] Pure blacks (#000), filmic neon rolloff on cyan/violet, subtle grain, octane-grade realism, no text, no watermark.
+
+NEGATIVE: text, logo, banding, flicker, cartoon, oversaturated, low resolution, jump cut

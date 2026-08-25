@@ -38790,7 +38790,7 @@
                     if (t instanceof v ? (i = t,
                     e += `type=${t.type} details=` + t.details) : i = new me(!0,pe.InternalError,t.message,t.stack),
                     i.appItemId = null == (r = this.itemQueue.activeItem) ? void 0 : r.appItemId,
-                    this.logger.error(`Got unhandled or fatal error: ${e}, fatal: ${i.fatal}, isHlsError: ${tinstanceof v}, isInterstitial: ` + this.interstitialActive),
+                    this.logger.error(`Got unhandled or fatal error: ${e}, fatal: ${i.fatal}, isHlsError: ${t instanceof v}, isInterstitial: ` + this.interstitialActive),
                     i instanceof s)
                         return i.handled = !0,
                         this.trigger(c.ERROR, i),

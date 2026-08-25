@@ -1,0 +1,13 @@
+VIDEO — anim/case (4s macro slow motion) | Firefly: Generate Video | 16:9
+
+[SHOT] Extreme close-up at registration-desk height, shallow focus rack from tray to badge as it lifts.
+[LENS] 100mm probe-style macro, f/2.0, 120fps slow motion, ARRI Alexa Mini LF.
+[SUBJECT] A volunteer's hands (Indian college student, sleeve of a navy event t-shirt) lifting a glowing smart badge out of a matte-black felt-lined tray; badge circuit core pulses softly.
+[ACTION] Fingers enter frame, grip the badge edges confidently, lift it 10cm toward camera; light spills brighter as it rises; hands then exit frame leaving the lit badge hovering in focus.
+[ENVIRONMENT] Dim TCET lobby registration counter: brushed-dark countertop, blurred queue stanchions and campus marble wall behind.
+[LIGHTING] Single hard electric-blue #2E6FF2 edge key from upper left skimming the countertop; violet #7B5CFA bounce from below; warm practical desk lamp far background bokeh; badge itself emits soft white-cyan core light.
+[MOTION] All motion at 120fps slow motion — deliberate, weighted, no speed ramps; dust motes drift up through the beam; end frame holds steady.
+[ATMOSPHERE] Fine dust illuminated in the key beam, gentle lens flare kissing frame-left when badge rises.
+[GRADE] Deep blacks, warm/cool contrast split, filmic highlight roll-off, subtle grain, photoreal skin texture, no readable text, no watermark.
+
+NEGATIVE: warped fingers, extra fingers, morphing hands, gibberish text, flicker, cartoon, plastic look, jump cut

@@ -1,0 +1,7 @@
+IMAGE — badge-viewer (360° spin frames, 36 angles)
+Paste at: gemini.google.com | Ask for 1:1 square
+Generate frame 1, then for each next message attach the previous
+best image and change only the rotation angle.
+
+Photorealistic studio product photograph of a futuristic transparent acrylic AAAI Event attendee badge hanging from a woven navy-blue lanyard ribbon, a glowing circuit core etched inside the acrylic emitting soft cyan light, floating perfectly centered against a pure black seamless studio background, shot on a full-frame mirrorless camera with a 100mm macro lens at f/11, even soft key light from above, electric blue rim light on the left edge and violet rim light on the right edge, subtle reflection on glossy black floor below, ultra-sharp 8K detail with realistic acrylic refraction and micro-scratches on the surface. The badge is rotated to show its FRONT FACE straight-on. No text printed anywhere, no logos, no watermark, no people.
+[Then repeat with: "rotated 10 degrees to the left", "rotated 20 degrees..." up to 350 degrees]

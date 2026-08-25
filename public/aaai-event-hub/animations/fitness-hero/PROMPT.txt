@@ -1,0 +1,14 @@
+VIDEO — anim/fitness-hero (re-themed: hackathon arena fly-through, 5s)
+Firefly: Generate Video | 16:9 | tracking shot
+
+[SHOT] Low smooth tracking shot gliding forward down the central aisle between hackathon tables at standing height, constant walking pace, foreground table edges wiping past with motion blur.
+[LENS] 35mm anamorphic, T2.0, ARRI Alexa 65, 24fps, oval bokeh, slight lens breathing.
+[SUBJECT] Rows of Indian student teams coding through the night: screens painting faces blue-white, hands typing, energy-drink cans and tangled cables on dark tables, lanyards swinging as people lean.
+[ACTION] One team high-fives quietly mid-solve; another leans toward a shared screen; everyone else micro-moves — typing, sipping, shifting weight; camera never stops gliding forward.
+[ENVIRONMENT] Engineering college main hall converted to hackathon arena in Mumbai: exposed ceiling truss hung with string lights and LED strips, giant countdown screen glowing soft red-violet at the far wall.
+[LIGHTING] Hero light is laptop screens (cool white-cyan); string lights add warm tungsten bokeh overhead; electric blue #2E6FF2 and violet #7B5CFA washes pulse gently from the stage side; thin haze makes every source volumetric.
+[MOTION] Steady gimbal-smooth forward glide, natural handheld micro-float only; all human motion small and believable; final frame pushes into the countdown glow.
+[ATMOSPHERE] Dense cozy atmosphere: haze, steam from a paper cup catching light, bokeh layers near-to-far.
+[GRADE] Warm-vs-cool contrast split, crushed blacks (#000-#1d1d1f), halation on string lights, subtle grain, photoreal documentary feel, no readable text on screens, no watermark.
+
+NEGATIVE: gibberish text, distorted faces looking at camera, morphing hands, flicker, cartoon, plastic look, oversaturated, empty room, jump cut

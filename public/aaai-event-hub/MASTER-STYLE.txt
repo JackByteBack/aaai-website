@@ -1,0 +1,10 @@
+=====================================================
+MASTER STYLE — TCET COLLEGE × AAAI EVENT (India)
+Already included inside every PROMPT.txt. If you write
+your own prompt, paste this at the end:
+=====================================================
+
+Ultra-realistic 8K footage from the AAAI Event Hub at TCET college campus in Mumbai: modern engineering-college auditorium, expo halls and open courtyards, diverse Indian college students and professors wearing event lanyards and ID badges, warm stage spotlights mixed with electric blue (#2E6FF2) and violet (#7B5CFA) AAAI accent lighting, LED screens glowing softly out of focus, energetic tech-fest atmosphere, cinematic shallow depth of field, natural skin tones, no readable text on screens or banners, no watermark, photorealistic.
+
+NEGATIVE PROMPT (if your tool has a negative field):
+gibberish text, letters, logo, watermark, cartoon, illustration, low quality, distorted faces, extra fingers, empty venue

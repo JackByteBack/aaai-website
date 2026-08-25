@@ -29868,7 +29868,7 @@ html.enhanced .section .section-audio-performance {
     }
 }
 
-.section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+.section-audio-performance .overview-audio-performance-audio-aaai-pair {
     display: block;
     width: var(--p-width);
     height: var(--p-height);
@@ -29879,43 +29879,44 @@ html.enhanced .section .section-audio-performance {
 }
 
 @media(max-width: 1068px)and (max-width:1068px) {
-    .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+    .section-audio-performance .overview-audio-performance-audio-aaai-pair {
         --p-width:640px;
         --p-height: 607px
     }
 }
 
 @media(max-width: 734px)and (max-width:734px) {
-    .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+    .section-audio-performance .overview-audio-performance-audio-aaai-pair {
         --p-width:310px;
         --p-height: 294px
     }
 }
 
 @media(max-width: 1068px) {
-    .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+    .section-audio-performance .overview-audio-performance-audio-aaai-pair {
         margin-bottom:60px
     }
 }
 
 @media(max-width: 734px) {
-    .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+    .section-audio-performance .overview-audio-performance-audio-aaai-pair {
         margin-bottom:90px
     }
 }
 
-html.enhanced .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair {
+html.enhanced .section-audio-performance .overview-audio-performance-audio-aaai-pair {
     visibility: hidden;
     height: 0;
     width: 0
 }
 
-.section-audio-performance .overview-audio-performance-audio-airpods-pro-pair img {
+.section-audio-performance .overview-audio-performance-audio-aaai-pair img {
     position: absolute;
-    inset-inline-start: 50%
+    inset-inline-start: 50%;
+    max-width: 100%
 }
 
-html:not([dir=rtl]) .section-audio-performance .overview-audio-performance-audio-airpods-pro-pair img {
+html:not([dir=rtl]) .section-audio-performance .overview-audio-performance-audio-aaai-pair img {
     transform: translateX(-50%)
 }
 
@@ -33287,7 +33288,11 @@ html.text-zoom .section-magical .magical-experience-siri .media-block p {
 }
 
 @media(max-width: 734px) {
-    .section-battery .stats {
+.section-battery .overview-battery-case img {
+    max-width: 100%
+}
+
+.section-battery .stats {
         flex-direction:column
     }
 }

@@ -1,0 +1,13 @@
+VIDEO — anim/noise-control (4s loop) | Firefly: Generate Video | 16:9
+
+[SHOT] Locked-off symmetrical composition: five concentric rings of dark glass panels floating in a receding line toward vanishing point.
+[LENS] 65mm, T2.8, ARRI Alexa 65, 24fps, deep-centre focus.
+[SUBJECT] Chaotic jagged waves of electric-blue energy entering frame-left, passing through each floating dark-glass ring and emerging calmer — flattening into a smooth single line by the final ring.
+[ACTION] Waves travel continuously left to right; each ring absorbs turbulence with a faint ripple of its surface; the tamed line exits frame-right into stillness; cycle repeats.
+[ENVIRONMENT] Void-dark expo hall at night; polished obsidian floor mirrors the rings; distant stalled booths reduced to faint bokeh.
+[LIGHTING] Waves are self-luminous (#2E6FF2 cresting to violet #7B5CFA tips); glass rings catch thin specular rims; no other sources.
+[MOTION] Constant flow speed with weighty glass (rings shiver minutely on absorption); perfect 2-second internal cycle, seamless loop.
+[ATMOSPHERE] Low haze making wave beams volumetric; halation where crests peak; mirror reflections below.
+[GRADE] Deep charcoal-to-black tones (#000-#1d1d1f), restrained neon within filmic rolloff, subtle grain, photorealistic render, no text, no watermark.
+
+NEGATIVE: text, logo, banding, flicker, cartoon, oversaturated, plastic look, jump cut

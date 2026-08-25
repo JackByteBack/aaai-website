@@ -655,3 +655,47 @@ html {
 		margin-inline-end: 0;
 	}
 }
+
+.section-product-viewer .product-viewer-component {
+	max-width: none;
+}
+
+.product-viewer-media-gallery {
+	max-width: none;
+}
+
+.product-viewer-media-gallery .product-viewer-media.tour-water-resistance {
+	overflow: hidden;
+}
+
+.product-viewer-media-gallery .product-viewer-media.tour-water-resistance .overview-product-viewer-closer-look-water-resistance {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #1a191a;
+}
+
+.product-viewer-media-gallery .product-viewer-media.tour-water-resistance .overview-product-viewer-closer-look-water-resistance picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.product-viewer-media-gallery .product-viewer-media.tour-water-resistance .overview-product-viewer-closer-look-water-resistance img {
+	display: block !important;
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: cover !important;
+	object-position: 50% 35% !important;
+}
+
+@media only screen and (max-width: 734px) {
+	.product-viewer-media-gallery .product-viewer-media.tour-water-resistance .overview-product-viewer-closer-look-water-resistance img {
+		object-fit: contain !important;
+		object-position: center !important;
+	}
+}
