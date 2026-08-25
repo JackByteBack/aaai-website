@@ -690,12 +690,5 @@ html {
 	width: 100% !important;
 	height: 100% !important;
 	object-fit: cover !important;
-	object-position: 50% 35% !important;
-}
-
-@media only screen and (max-width: 734px) {
-	.product-viewer-media-gallery .product-viewer-media.tour-water-resistance .overview-product-viewer-closer-look-water-resistance img {
-		object-fit: contain !important;
-		object-position: center !important;
-	}
+	object-position: center 40% !important;
 }
