@@ -1,0 +1,118 @@
+---
+import LocalNav from '../components/LocalNav.astro';
+import EventFooter from '../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Site Map - AAAI Event Hub</title>
+        <meta name="Description" content="Every page on the AAAI Event Hub website in one place — overview, schedule, guidelines, about, contact and legal documents." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="sitemap" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Site Map.</h1>
+                <p class="subhead">Every page on this website, in one place.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Main pages">
+                <div class="event-container">
+                    <h2>Main pages.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Overview</h3>
+                            <p>The centre of everything extraordinary — what the event is and why you should be there.</p>
+                            <a href="/">Go to the overview</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Schedule</h3>
+                            <p>Three days of keynotes, workshops and celebrations, hour by hour — plus passes.</p>
+                            <a href="/schedule/">Plan your days</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Guidelines</h3>
+                            <p>House rules, accessibility and the code of conduct that keeps everyone welcome.</p>
+                            <a href="/guidelines/">Know the rules</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>About Us</h3>
+                            <p>Who we are, what we value and the team behind the event.</p>
+                            <a href="/about/">Meet the team</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Contact Us</h3>
+                            <p>Questions, ideas or partnership proposals — we read everything.</p>
+                            <a href="/contact/">Say hello</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="Location">
+                <div class="event-container">
+                    <h2>Find us.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Venue.</h3>
+                            <p>Thakur College of Engineering and Technology<br />
+                            Thakur Village, Kandivali East,<br />
+                            Mumbai 400101, India</p>
+                            <p>Easily reached via Kandivali station on the Western Line, with parking available on campus.</p>
+                            <a href="https://www.google.com/maps/place/Thakur+College+of+Engineering+and+Technology/@19.2063003,72.8720307,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b0e57647569d:0xc0aec329c82d3555!8m2!3d19.2063003!4d72.8746056!16s%2Fm%2F0fqs6yw" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section on-white" aria-label="Legal and policies">
+                <div class="event-container">
+                    <h2>Legal &amp; policies.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Privacy Policy</h3>
+                            <p>What we collect, why we collect it and how you stay in control.</p>
+                            <a href="/legal/privacy/">Read the policy</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Terms of Use</h3>
+                            <p>The ground rules for using this website and joining the event.</p>
+                            <a href="/legal/terms/">Read the terms</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Sales Policy</h3>
+                            <p>Pricing, payments, refunds and transfers for event passes.</p>
+                            <a href="/legal/sales-policy/">Read the policy</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Legal</h3>
+                            <p>All legal documents and policies, together in one hub.</p>
+                            <a href="/legal/">Visit the legal hub</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Site Map</h3>
+                            <p>You are here — every page on this website, in one place.</p>
+                            <a href="/sitemap/">Back to the top</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="Get passes">
+                <div class="event-container contact-callout">
+                    <h2>Ready to join?</h2>
+                    <p>Passes for all three days are on sale now — including discounted student passes.</p>
+                    <a class="button-pill" href="/schedule/#get-passes">Get Passes</a>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

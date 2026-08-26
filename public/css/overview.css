@@ -641,6 +641,325 @@ html {
 	overflow-x: clip;
 }
 
+/* ── Product Viewer: Apple-style card layout ───────────────────────── */
+/* Design: outer section with breathing room; grey rounded card (max 1200px);
+   two-column layout — pills LEFT (in-flow), product imagery RIGHT (absolute layer). */
+
+/* 1. Outer section wrapper: margin from nav, proportional viewport gutter */
+.section-product-viewer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-inline: clamp(16px, 4vw, 120px);
+}
+
+/* Kill the built-in 160px bottom padding on this section */
+.section-product-viewer.section {
+	padding-bottom: 40px !important;
+}
+
+/* 2. Grey card: constrained, centred, rounded, two-column */
+.section-product-viewer .product-viewer-component {
+	position: relative;
+	background-color: #f5f5f7;
+	border-radius: 28px;
+	max-width: 1200px;
+	margin-inline: auto;
+	padding: 48px 32px;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row-reverse;   /* DOM: [container, controls] → visual: [controls LEFT, media RIGHT] */
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	height: 560px;                 /* definite height so children percentages resolve */
+}
+
+/* 3. Left column: pill buttons (in-flow flex item) */
+.section-product-viewer .all-access-pass--product-viewer {
+	position: relative;
+	z-index: 2;
+	pointer-events: auto;
+	flex-shrink: 0;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	display: block;
+}
+
+.section-product-viewer .all-access-pass--product-viewer .controls {
+	margin: 0;
+	width: auto;
+}
+
+/* Pill vertical spacing: gap-4 (16px) to match Apple */
+.controls .control-group {
+	gap: 16px;
+}
+
+/* 4. Right column: product imagery (in-flow flex item with absolute children) */
+.section-product-viewer .product-viewer-container {
+	position: relative;
+	flex: 1;
+	min-width: 0;
+	height: 100%;
+	display: flex;           /* flex so gallery percentages resolve against definite size */
+	align-items: stretch;
+	justify-content: center;
+	pointer-events: auto;
+}
+
+/* Inner gallery fills the container and establishes containing block for media frames */
+.section-product-viewer .product-viewer-container .product-viewer.gallery {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-content: center;
+}
+
+/* Media frames stack as absolute flex items within the gallery.
+   Built-in stylesheet sets opacity: 1 on .product-viewer.gallery .product-viewer-media
+   (line 27261 in built CSS) so the initial frame is visible without JS.
+   Flex container ensures percentage heights resolve against the definite 464px media frame height. */
+.section-product-viewer .product-viewer-container .product-viewer-media {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-product-viewer .product-viewer-container .product-viewer-media.should-hide {
+	display: none;
+}
+
+/* First child of each media frame (picture or .inline-media-component-container):
+   fill the media box and center its content */
+.section-product-viewer .product-viewer-container .product-viewer-media > :first-child {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Constrain artwork to fit while preserving aspect ratio */
+.section-product-viewer .product-viewer-container .product-viewer-media img,
+.section-product-viewer .product-viewer-container .product-viewer-media video {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+
+/* Force the media frame's first child (inline-media-component-container or picture)
+   to fill the media frame's definite 416x464 box */
+.section-product-viewer .product-viewer-container .product-viewer-media > :first-child {
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+/* Video wrapper and fallback frames: fill the first child */
+.section-product-viewer .product-viewer-container .product-viewer-media .inline-media-component-container,
+.section-product-viewer .product-viewer-container .product-viewer-media .video-wrapper {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/* Fallback frame pictures: fill video-wrapper and constrain content */
+.section-product-viewer .product-viewer-container .product-viewer-media .video-wrapper picture {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 100% !important;
+	max-height: 100% !important;
+}
+
+/* Img inside fallback frame: fill picture with object-fit contain */
+.section-product-viewer .product-viewer-container .product-viewer-media .video-wrapper .fallback-frame img {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 100% !important;
+	max-height: 100% !important;
+	object-fit: contain !important;
+	object-position: center !important;
+}
+
+/* Also constrain any direct img in media frame (for non-video media) */
+.section-product-viewer .product-viewer-container .product-viewer-media > :first-child > img {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 100% !important;
+	max-height: 100% !important;
+	object-fit: contain !important;
+	object-position: center !important;
+}
+
+/* 5. Responsive adjustments */
+
+@media only screen and (min-width: 1441px) {
+	.section-product-viewer .product-viewer-component {
+		border-radius: 28px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-product-viewer .product-viewer-component {
+		padding: 36px 24px;
+		gap: 28px;
+		height: 500px;
+	}
+	.section-product-viewer .product-viewer-container {
+		top: 36px;
+		bottom: 36px;
+		right: 24px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-product-viewer {
+		margin-top: 24px;
+		margin-bottom: 24px;
+		padding-inline: 8px;
+	}
+	.section-product-viewer.section {
+		padding-bottom: 24px !important;
+	}
+	.section-product-viewer .product-viewer-component {
+		background-color: #f5f5f7 !important;
+		padding: 24px 16px;
+		border-radius: 20px;
+		flex-direction: column;
+		gap: 20px;
+		height: auto;
+		min-height: 0;
+	}
+	.section-product-viewer .product-viewer-container {
+		position: relative;
+		top: auto;
+		bottom: auto;
+		right: auto;
+		left: auto;
+		width: 100%;
+		height: 284px;
+		aspect-ratio: 884 / 768;
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	.section-product-viewer .product-viewer-container .product-viewer.gallery {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.section-product-viewer .all-access-pass--product-viewer {
+		width: 100%;
+	}
+	.section-product-viewer .all-access-pass--product-viewer .controls {
+		width: 100%;
+	}
+	.section-product-viewer .all-access-pass--product-viewer .control-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		justify-content: center;
+		align-content: flex-start;
+		min-height: 56px;
+	}
+}
+
+.product-viewer-media-gallery {
+	max-width: 100%;
+}
+
+/* Control group: pill spacing to match Apple (gap-4 = 16px) */
+.controls .control-group {
+	gap: 16px;
+}
+
+/* Pill buttons: refine height, padding, and border-radius to match Apple */
+.control-item > button {
+	padding-inline-start: 16px;
+	padding-inline-end: 36px;
+	height: 56px;
+	transition: background-color 200ms ease, transform 150ms ease;
+}
+
+/* Pill background: Apple-style subtle frosted glass */
+.control-item-bg {
+	opacity: 0;
+	transition: background-color 250ms linear, opacity 250ms ease;
+	box-shadow: inset 0 0 0.5px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Hover state: smooth background fill like Apple */
+@media (hover: hover) {
+	.controls:not(.tour-engaged) .control-item:not(.expanded):hover .control-item-bg {
+		background-color: var(--aap-pv-beat-color-hover);
+		opacity: 1;
+	}
+
+	.controls:not(.tour-engaged) .control-item:not(.expanded):hover {
+		cursor: pointer;
+	}
+}
+
+/* Active/pressed state: subtle scale-down like Apple's touch feedback */
+.control-item > button:active {
+	transform: scale(0.97);
+	transition: transform 80ms ease;
+}
+
+/* Focus-visible: clean ring matching Apple's focus style */
+.control-item > button:focus-visible {
+	outline: 2px solid rgba(0, 113, 227, 0.6);
+	outline-offset: 2px;
+	border-radius: 28px;
+}
+
+/* Label text: match Apple's SF Pro weight and size */
+.typography-all-access-pass-pv-item-label {
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -0.022em;
+	line-height: 1.4705882353;
+}
+
+/* Plus icon: slightly refined stroke weight */
+.control-item-label svg {
+	width: 22px;
+	height: 22px;
+	margin-inline-end: 14px;
+	flex-shrink: 0;
+}
+
+/* Expanded card content: smooth entrance */
+.control-item-content {
+	transition: opacity var(--content-offset-o-duration-enter) ease-out var(--content-offset-o-delay),
+		transform var(--content-offset-y-duration-enter) ease-out var(--content-offset-y-delay);
+}
+
+/* Paddle nav arrows: match Apple's pill-shaped nav */
+.control-item-nav .paddlenav-button {
+	border-radius: 22px;
+	transition: background-color 200ms ease;
+}
+
+.control-item-nav .paddlenav-button:hover .paddlenav-icon {
+	background: var(--aap-pv-beat-color-hover);
+}
+
 /* Product viewer tour: keep prev/next paddle arrows fully on-screen.
    The gutter between the viewport edge and the expanded card is 40px,
    so the 36px icon plus the 10px built-in margin overflowed the edge. */
@@ -654,14 +973,21 @@ html {
 		margin-inline-start: 0;
 		margin-inline-end: 0;
 	}
-}
 
-.section-product-viewer .product-viewer-component {
-	max-width: none;
-}
+	/* Mobile: pills stack vertically at bottom */
+	.controls .control-group {
+		gap: 8px;
+	}
 
-.product-viewer-media-gallery {
-	max-width: none;
+	.control-item > button {
+		padding-inline-start: 14px;
+		padding-inline-end: 28px;
+		height: 44px;
+	}
+
+	.typography-all-access-pass-pv-item-label {
+		font-size: 15px;
+	}
 }
 
 .product-viewer-media-gallery .product-viewer-media.tour-water-resistance {

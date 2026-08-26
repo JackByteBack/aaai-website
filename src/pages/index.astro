@@ -628,7 +628,7 @@
                     }
                 }
             }</script>
-        <!-- globalheader.umd.js removed - using hardcoded HTML nav instead -->
+        <script src="/js/globalnav-search.js" defer></script>
         <script>
             (function () {
                 var nav = document.getElementById('globalnav');
@@ -2048,36 +2048,6 @@
                         </div>
                     </div>
                 </section>
-                <section id="battery" class="section section-battery background-alt no-pad-bottom" data-anim-scroll-group="Battery" data-component-list="ParallaxImage">
-                    <div class="viewport-content" data-component-list="StaggeredFadeIn">
-                        <div class="product-stories-header ric-flex-wrap ric-large-12 align-center" data-analytics-section-engagement="name:battery intro">
-                            <div class="section-header-intro  ric-large-12" data-staggered-item>
-                                <h2 class="section-header-eyebrow typography-eyebrow-elevated">All-day battery life</h2>
-                                <h3 class="section-header-headline typography-headline-standalone">
-                                    They’re workin’<br>9 to 5.
-                                </h3>
-                            </div>
-                            <div class="section-header-copy typography-product-stories-header-copy ric-large-8 ric-medium-10 ric-small-12" data-staggered-item>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <picture id="overview-battery-case-1" class="overview-battery-case row justify-content-center parallax-image" data-lazy>
-                        <source data-empty srcset="data:image/gif;base64,R0lGODlhAQABAHAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" media="(min-width:0px)"/>
-                        <source srcset="/images/overview/battery/case__b87ou7jna9de_small.png, /images/overview/battery/case__b87ou7jna9de_small_2x.png 2x" media="(max-width:734px)"/>
-                        <source srcset="/images/overview/battery/case__b87ou7jna9de_medium.png, /images/overview/battery/case__b87ou7jna9de_medium_2x.png 2x" media="(max-width:1068px)"/>
-                        <source srcset="/images/overview/battery/case__b87ou7jna9de_large.png, /images/overview/battery/case__b87ou7jna9de_large_2x.png 2x" media="(min-width:0px)"/>
-                        <img src="/images/overview/battery/case__b87ou7jna9de_large.png" onload="window.__lp?.(event)" alt="">
-                    </picture>
-                    <noscript>
-                        <picture class="overview-battery-case row justify-content-center parallax-image">
-                            <source srcset="/images/overview/battery/case__b87ou7jna9de_small.png, /images/overview/battery/case__b87ou7jna9de_small_2x.png 2x" media="(max-width:734px)"/>
-                            <source srcset="/images/overview/battery/case__b87ou7jna9de_medium.png, /images/overview/battery/case__b87ou7jna9de_medium_2x.png 2x" media="(max-width:1068px)"/>
-                            <source srcset="/images/overview/battery/case__b87ou7jna9de_large.png, /images/overview/battery/case__b87ou7jna9de_large_2x.png 2x" media="(min-width:0px)"/>
-                            <img src="/images/overview/battery/case__b87ou7jna9de_large.png" alt="AAAI Event Hub (USB-C), rounded case exterior, LED power indicator, case lid open, white colour, wireless headphones with silicone tips, stem interior features letter L and letter R">
-                        </picture>
-                    </noscript>
-                </section>
             </section>
             <section id="leadership" class="section section-leadership" aria-label="Core team">
                 <div class="viewport-content">
@@ -2126,29 +2096,6 @@
             <div class="ac-gf-content" data-nosnippet>
                 <h2 class="ac-gf-label" id="ac-gf-label">AAAI Footer</h2>
 
-                <nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
-                    <a href="/" class="home ac-gf-breadcrumbs-home">
-                        <span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
-                        <span class="ac-gf-breadcrumbs-home-label">AAAI</span>
-                        <span class="ac-gf-breadcrumbs-home-chevron"></span>
-                        <span class="ac-gf-breadcrumbs-home-mask"></span>
-                    </a>
-                    <div class="ac-gf-breadcrumbs-path">
-                        <ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
-                            <li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem">
-                                <a class="ac-gf-breadcrumbs-link" href="/about/" property="item" typeof="WebPage">
-                                    <span property="name">AAAI Event Hub</span>
-                                </a>
-                                <meta property="position" content="1"/>
-                            </li>
-                            <li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem">
-                                <span property="name">AAAI Event Hub</span>
-                                <meta property="position" content="2"/>
-                            </li>
-                        </ol>
-                    </div>
-                </nav>
-
                 <section class="ac-gf-footer">
                     <div class="ac-gf-footer-end">
                         <div class="ac-gf-footer-locale ac-gf-footer-locale-small">
@@ -2165,13 +2112,13 @@
                                     <a class="ac-gf-footer-legal-link" href="/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
                                 </li>
                                 <li class="ac-gf-footer-legal-links-item" role="listitem">
-                                    <a class="ac-gf-footer-legal-link" href="/legal/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+                                    <a class="ac-gf-footer-legal-link" href="/legal/terms/" data-analytics-title="terms of use">Terms of Use</a>
                                 </li>
                                 <li class="ac-gf-footer-legal-links-item" role="listitem">
-                                    <a class="ac-gf-footer-legal-link" href="/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales Policy</a>
+                                    <a class="ac-gf-footer-legal-link" href="/legal/sales-policy/" data-analytics-title="sales policy">Sales Policy</a>
                                 </li>
                                 <li class="ac-gf-footer-legal-links-item" role="listitem">
-                                    <a class="ac-gf-footer-legal-link" href="/in/legal/" data-analytics-title="legal">Legal</a>
+                                    <a class="ac-gf-footer-legal-link" href="/legal/" data-analytics-title="legal">Legal</a>
                                 </li>
                                 <li class="ac-gf-footer-legal-links-item" role="listitem">
                                     <a class="ac-gf-footer-legal-link" href="/sitemap/" data-analytics-title="site map">Site Map</a>

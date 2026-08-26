@@ -1,0 +1,64 @@
+---
+import LocalNav from '../../components/LocalNav.astro';
+import EventFooter from '../../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Sales Policy - AAAI Event Hub</title>
+        <meta name="Description" content="The AAAI Event Hub sales policy — pricing, payments, pass delivery, refunds, transfers and student passes explained plainly." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="sales-policy" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Sales Policy.</h1>
+                <p class="subhead">Everything you need to know about buying, changing or refunding an event pass — before you check out.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Sales policy">
+                <div class="event-container prose">
+                    <p class="prose-meta">Last updated: 1 August 2026</p>
+
+                    <h2>1. Pricing &amp; taxes</h2>
+                    <p>All prices are shown in Indian Rupees (INR) and include applicable taxes. The price you see at checkout is the price you pay — no surprise fees later.</p>
+
+                    <h2>2. Payment &amp; confirmation</h2>
+                    <p>We accept the payment methods shown at checkout. Your pass is confirmed once you receive an email confirmation from us. If money has left your account but no confirmation arrives within 24 hours, contact <a href="mailto:passes@aaaihub.org">passes@aaaihub.org</a> and we'll sort it out.</p>
+
+                    <h2>3. Pass delivery</h2>
+                    <p>Digital pass QR codes are delivered by email shortly after purchase and can also be downloaded from the link in your confirmation. Badges are collected on site — bring a photo ID matching the attendee name.</p>
+
+                    <h2>4. Refunds</h2>
+                    <p>Full refunds are available up to 14 days before the first event day, returned to the original payment method within 7–10 business days. Within 14 days of the event, no refunds are issued, but you may transfer your pass free of charge (see below).</p>
+
+                    <h2>5. Transfers</h2>
+                    <p>Can't make it? Transfer your pass free of charge by emailing the new attendee's details to <a href="mailto:passes@aaaihub.org">passes@aaaihub.org</a> at least 48 hours before the event starts. Transfers after badge collection aren't possible.</p>
+
+                    <h2>6. Student passes</h2>
+                    <p>Student-priced passes require a valid student ID presented at registration. If ID can't be shown, we'll ask you to pay the difference for a standard pass at the door.</p>
+
+                    <h2>7. Refused &amp; revoked orders</h2>
+                    <p>We may decline or cancel an order (with a full refund) where payment fails, fraud is suspected, or a previous code-of-conduct breach makes attendance inappropriate.</p>
+
+                    <h2>8. Pricing errors</h2>
+                    <p>If we list a price in obvious error, we'll cancel the order and refund you in full — and offer the corrected price first if you still want the pass.</p>
+
+                    <h2>9. Programme changes &amp; cancellation</h2>
+                    <p>Speakers, venues and session times may change due to circumstances beyond our control. If the entire event cannot be held, every pass holder chooses between a transfer to a rescheduled date or a pro-rata refund.</p>
+
+                    <h2>10. Contact</h2>
+                    <p>Questions about an order? Write to <a href="mailto:passes@aaaihub.org">passes@aaaihub.org</a>.</p>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>

@@ -13,5 +13,8 @@
     "@astrojs/check": "^0.9.10",
     "astro": "^4.14.0",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }

@@ -1,0 +1,71 @@
+---
+import LocalNav from '../../components/LocalNav.astro';
+import EventFooter from '../../components/EventFooter.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-IN" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Legal - AAAI Event Hub</title>
+        <meta name="Description" content="Legal documents and policies for the AAAI Event Hub — Privacy Policy, Terms of Use, Sales Policy and Site Map, all in one place." />
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/ac-localnav.built.css" />
+        <link rel="stylesheet" type="text/css" href="/css/event-pages.css" />
+    </head>
+    <body>
+        <LocalNav current="legal" />
+        <main class="event-main">
+            <header class="event-hero">
+                <p class="eyebrow">AAAI Event Hub</p>
+                <h1>Legal.</h1>
+                <p class="subhead">The documents that govern your relationship with us — written plainly, kept short and fair.</p>
+            </header>
+
+            <section class="event-section on-white" aria-label="Policies and documents">
+                <div class="event-container">
+                    <h2>Policies &amp; documents.</h2>
+                    <div class="guideline-grid">
+                        <article class="guideline-card">
+                            <h3>Privacy Policy</h3>
+                            <p>What we collect, why we collect it and how you stay in control of your personal information.</p>
+                            <a href="/legal/privacy/">Read the Privacy Policy</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Terms of Use</h3>
+                            <p>The ground rules for using this website and joining the event.</p>
+                            <a href="/legal/terms/">Read the Terms of Use</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Sales Policy</h3>
+                            <p>Pricing, payments, refunds and transfers for event passes — before you check out.</p>
+                            <a href="/legal/sales-policy/">Read the Sales Policy</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>House Guidelines</h3>
+                            <p>How we keep the event welcoming, accessible and safe for everyone.</p>
+                            <a href="/guidelines/">See the guidelines</a>
+                        </article>
+                        <article class="guideline-card">
+                            <h3>Site Map</h3>
+                            <p>Every page on the AAAI Event Hub website, in one place.</p>
+                            <a href="/sitemap/">Browse the Site Map</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="event-section" aria-label="About these documents">
+                <div class="event-container prose">
+                    <h2>About these documents.</h2>
+                    <p class="prose-meta">Last updated: 1 August 2026</p>
+                    <p>These policies apply to this website and the AAAI Event Hub, organised by AAAI Inc. They're deliberately short — but they're binding, so please read anything relevant before you buy a pass or attend.</p>
+                    <p>If any part of a policy conflicts with mandatory law, the law wins and the rest stays in force. Older printed or emailed versions are superseded by what's published here.</p>
+                    <p>Questions about any legal document? Write to <a href="mailto:hello@aaaihub.org">hello@aaaihub.org</a> and a human will reply.</p>
+                </div>
+            </section>
+        </main>
+        <EventFooter />
+    </body>
+</html>
